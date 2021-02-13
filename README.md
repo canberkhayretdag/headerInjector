@@ -13,7 +13,7 @@ Header Injector is a tool that checks the target has a "Host Header Injection Vu
 
 # Usage
 
--h or --Help for usage \n
+-h or --Help for usage  
 -f or --File domains.txt for test list of domains
 
 Example: python3 headerInjector.py -f domains.txt
