@@ -12,3 +12,4 @@ Header Injector is a tool that checks the target has a "Host Header Injection Vu
 - Forwarded
 
 # Usage
+
