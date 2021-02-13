@@ -36,7 +36,12 @@ def getArgs():
         for currentArgument, currentValue in arguments:
     
             if currentArgument in ("-h", "--Help"):
-                print ("Diplaying Help")
+                print("Usage: Header Injection")
+                print("-----------------------")
+                print("-h or --Help for usage")
+                print("-f or --File domains.txt for test list of domains")
+                print(" ")
+                sys.exit()
                 
             elif currentArgument in ("-f", "--File"):
                 global FILENAME
