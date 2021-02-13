@@ -19,7 +19,7 @@ class myThread(threading.Thread):
         self.queue = urlQueue
 
     def run(self):
-        opsInjection(self.queue) # FILL HERE
+        opsInjection(self.queue)
 
 def getArgs():
     argumentList = sys.argv[1:]
